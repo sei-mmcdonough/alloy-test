@@ -94,9 +94,15 @@ If there is an `active` event, then present option to rejoin and skip launch.
 
 The entire **Launch** and **End** processes will be single background tasks that poll the Caster API for each status change, update the event database record appropriately, and then move on to the next step in the process.
 
-## Alloy documentation
+## Reporting bugs and requesting features
 
-In addition to the **Alloy API Readme** and [Alloy UI Readme](https://github.com/cmu-sei/crucible/blob/master/alloy.ui/README.md) found in their respective repositories, Alloy documentation can be found in the Crucible wiki. Get started with Alloy [here](https://github.com/cmu-sei/crucible/wiki/Alloy-Quick-Start).
+Think you found a bug? Please report all Crucible bugs - including bugs for the individual Crucible apps - in the [cmu-sei/crucible issue tracker](https://github.com/cmu-sei/crucible/issues). 
+
+Include as much detail as possible including steps to reproduce, specific app involved, and any error messages you may have received.
+
+Have a good idea for a new feature? Submit all new feature requests through the [cmu-sei/crucible issue tracker](https://github.com/cmu-sei/crucible/issues). 
+
+Include the reasons why you're requesting the new feature and how it might benefit other Crucible users.
 
 ## License
 Copyright 2020 Carnegie Mellon University. See the [LICENSE.txt](https://github.com/cmu-sei/crucible/blob/master/alloy.api/license.txt) files for details.
